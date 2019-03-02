@@ -1,3 +1,3 @@
 # Chunky
 
-## The productive web framework.
+The productive web framework.
