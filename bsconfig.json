@@ -15,6 +15,7 @@
       "subdirs": true
     }, {
       "dir": "packages/examples/todoer/src",
+      "type": "dev",
       "subdirs": true
     },
     {
