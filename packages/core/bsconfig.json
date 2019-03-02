@@ -1,12 +1,10 @@
 {
   "name": "@chunky-framework/core",
   "version": "1.0.0",
-  "sources": [
-    {
-      "dir": "src",
-      "subdirs": true
-    }
-  ],
+  "sources": [{
+    "dir": "src",
+    "subdirs": true
+  }],
   "package-specs": {
     "module": "commonjs",
     "in-source": true

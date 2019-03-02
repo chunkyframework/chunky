@@ -1,8 +1,7 @@
 {
   "name": "chunky",
   "version": "1.0.0",
-  "sources": [
-    {
+  "sources": [{
       "dir": "packages",
       "subdirs": [
         "examples",
