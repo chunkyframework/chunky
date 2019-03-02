@@ -1,5 +1,5 @@
 {
-  "name": "@chunky/data",
+  "name": "@chunky-framework/data",
   "version": "1.0.0",
   "scripts": {
     "build": "bsb -make-world",

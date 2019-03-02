@@ -1,5 +1,5 @@
 {
-  "name": "@chunky/renderer-reason-react",
+  "name": "@chunky-framework/renderer-reason-react",
   "version": "1.0.0",
   "scripts": {
     "build": "bsb -make-world",

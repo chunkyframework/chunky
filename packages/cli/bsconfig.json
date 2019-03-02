@@ -1,16 +1,18 @@
 {
-  "name": "@chunky/cli",
+  "name": "@chunky-framework/cli",
   "version": "1.0.0",
-  "sources": [{
-    "dir": "src",
-    "subdirs": true
-  }],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["@chunky/core"],
+  "bs-dependencies": ["@chunky-framework/core"],
   "warnings": {
     "error": "+101"
   },

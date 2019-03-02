@@ -1,21 +1,35 @@
 {
   "name": "chunky",
   "version": "1.0.0",
-  "sources": [{
-    "dir": "packages",
-    "subdirs": ["data/src", "renderer-reason-react/src", "cli/src"]
-  }, {
-    "dir": "__test__",
-    "type": "dev",
-    "subdirs": true
-  }],
+  "sources": [
+    {
+      "dir": "packages",
+      "subdirs": [
+        "examples",
+        "data/src",
+        "renderer-reason-react/src",
+        "cli/src"
+      ]
+    },
+    {
+      "dir": "__test__",
+      "type": "dev",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
   },
   "suffix": ".bs.js",
   "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
-  "bs-dependencies": ["@chunky/core", "@chunky/data", "@chunky/renderer-reason-react", "@chunky/cli", "@glennsl/bs-jest"],
+  "bs-dependencies": [
+    "@chunky-framework/core",
+    "@chunky-framework/data",
+    "@chunky-framework/renderer-reason-react",
+    "@chunky-framework/cli",
+    "@glennsl/bs-jest"
+  ],
   "warnings": {
     "error": "+101"
   },
