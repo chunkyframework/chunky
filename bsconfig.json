@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "sources": [{
     "dir": "packages",
-    "subdirs": ["data/src", "react/src", "cli/src"]
+    "subdirs": ["data/src", "renderer-reason-react/src", "cli/src"]
   }, {
     "dir": "__test__",
     "type": "dev",
@@ -15,7 +15,7 @@
   },
   "suffix": ".bs.js",
   "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
-  "bs-dependencies": ["@chunky/core", "@chunky/data", "@chunky/react", "@chunky/cli", "@glennsl/bs-jest"],
+  "bs-dependencies": ["@chunky/core", "@chunky/data", "@chunky/renderer-reason-react", "@chunky/cli", "@glennsl/bs-jest"],
   "warnings": {
     "error": "+101"
   },
