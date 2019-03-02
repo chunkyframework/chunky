@@ -53,6 +53,17 @@ After getting Chunky working with JavaScript, we can generate TypeScript and Flo
 
 After supporting TypeScript and Flow, the next thing to support would be more renderers, like Vue or Preact.
 
+Some tools I can imagine that will make the developer experience for Chunky rather great:
+
+- A component workbench (See: Storybook/Docz)
+- Documentation Generator (maybe?)
+- DevTools extension (See: Ember DevTools/React DevTools)
+- Server with mocked data for development and tests (See: Ember Mirage)
+- Eslint config (for JS/TS because ReasonML won't really need it)
+- Plugins in the form of middleware for the data layer (Like redux middleware)?
+- Versioned API docs
+- Provide basic plugins for common things like authorization
+
 ## Inspiration
 
 Chunky draws inspiration from primarily a lot of sources, but to name a few: [The Phoenix Framework](https://phoenixframework.org/), [Ecto](https://github.com/elixir-ecto/ecto), and [Ember.js](https://emberjs.com/).
