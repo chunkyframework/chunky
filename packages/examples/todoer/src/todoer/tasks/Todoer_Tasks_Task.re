@@ -14,8 +14,9 @@ type task = {
   status,
 };
 
-let createTask =
-    (~task={id: None, description: "", status: Incomplete}, description) => {
+let defaultTask = {id: None, description: "", status: Incomplete};
+
+let createTask = (~task=defaultTask, description) => {
   ChunkyData.Changeset.(
     task->cast(
       {
