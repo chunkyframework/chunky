@@ -1,0 +1,1 @@
+let insert = (thing: 'a) => ();

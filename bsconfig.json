@@ -2,13 +2,20 @@
   "name": "chunky",
   "version": "1.0.0",
   "sources": [{
-      "dir": "packages",
-      "subdirs": [
-        "examples",
-        "data/src",
-        "renderer-reason-react/src",
-        "cli/src"
-      ]
+      "dir": "packages/cli/src",
+      "subdirs": true
+    }, {
+      "dir": "packages/core/src",
+      "subdirs": true
+    }, {
+      "dir": "packages/data/src",
+      "subdirs": true
+    }, {
+      "dir": "packages/renderer-reason-react/src",
+      "subdirs": true
+    }, {
+      "dir": "packages/examples/todoer/src",
+      "subdirs": true
     },
     {
       "dir": "__test__",

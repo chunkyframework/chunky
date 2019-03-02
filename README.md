@@ -29,7 +29,24 @@ You can validate schemas using Changesets.
 ### Chunky Contexts
 
 Chunky's project architecture splits your application into two aspects: The business layer and the UI layer.
+
+#### Business Layer
+
 The business layer is where all of the fun is. In the business layer, you split your application into contexts. These contexts are domain-specific, so they are completely unique to your application. Each context has a public-facing API (eg, in a todo app, you would expose a functions like `getTodoById` or `createTodo` in the public-facing API).
+
+#### UI Layer
+
+The UI layer is for your, well, UI code. It is split up into a few things:
+
+- Components
+- Screens
+- Styles
+- Routes
+
+Components are basically React components.
+Screens are components, but hook into Chunky's routing system.
+Chunky's opinion on routing is also a little relaxed since each view library implements its own routing somehow (react-router, vue-router, react native's many different routers, etc), but we can make page components by using a special hook into Chunky that tells Chunky which components are a routed component.
+We'll probably have to use a router adapter for each popular library as well to get the required data from the UI into Chunky.
 
 ### Chunky Renderers
 
